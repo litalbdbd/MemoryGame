@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    width: 16vw;
+    height: 15vh;
+    border: pink 2px solid;
+    margin: 2px;
+    background-color: white;
+    border-radius: 12px;
+    background-position: center;
+    /* background-size: 0px; */
+    background-repeat: no-repeat;
+}
+
+.card:hover {
+    border: pink 3px solid;
+    box-shadow: 0 2px 2px 0 pink, 0 3px 3px 0 pink;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cards {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    width: 80vw;
+    height: 16vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
